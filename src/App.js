@@ -48,7 +48,7 @@ function App() {
         const flippedY = Math.pow(2, z) - 1 - y;
 
         return {
-          url: `/assets/quan72023/${z}/${x}/${flippedY}.png`,
+          url: `${process.env.PUBLIC_URL}/assets/quan72023/${z}/${x}/${flippedY}.png`,
         };
       }
     }
